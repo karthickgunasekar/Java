@@ -1,4 +1,4 @@
-package com.examples.java;
+package com.examples.java.singleton;
 
 public class SingletonMainExample {
 

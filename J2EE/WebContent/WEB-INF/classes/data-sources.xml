@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<data-sources>
+	<!--	
+	<data-source 
+        connection-driver="org.hsqldb.jdbcDriver"
+        url="jdbc:hsqldb:hsql://localhost"
+        username="sa"
+        password=""
+        class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+        dialect="hsql"
+        location="transformdb"
+        name="hsqldb"
+    />-->
+  	  <!--  <data-source 
+  	        connection-driver="oracle.jdbc.driver.OracleDriver"
+  	        url="jdbc:oracle:thin:@10.236.8.21:5021:VOLPAYDV"
+  	        username="COLPATRIA"
+  	        password="COLPATRIA1"
+  	        class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+  	        dialect="oracle"
+  	        location="transformdb"
+  	        name="ColpatriaDevelopmentDB"
+  	    />
+  		-->
+
+    <data-source 
+        connection-driver="oracle.jdbc.driver.OracleDriver"
+        url="jdbc:oracle:thin:@localhost:49161:xe"
+        username="COLPATRIA"
+        password="COLPATRIA1"
+        class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+        dialect="oracle"
+        location="transformdb"
+        name="LocalDockerColpatriaDB"
+    />
+		  
+	 <!--   	   <transaction-manager server-location="java:/TransactionManager" />
+  	    <data-source class="com.volante.component.server.jdbc.ManagedDataSourceConnectionPool"
+  	    name="transformdb"
+		dialect="oracle"
+  	    server-location="java:/vphdatasource"
+  	    location="transformdb"
+  	    />-->
+		
+	<!--
+    <data-source 
+        connection-driver="oracle.jdbc.driver.OracleDriver"
+        url="jdbc:oracle:thin:@200.200.200.79:1521:orcl"
+        username="test"
+        password="test"
+        class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+        dialect="oracle"
+        location="transformdb"
+        name="oracledb"
+    /> -->
+
+	<!--
+      <data-source 
+	connection-driver="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+	url="jdbc:sqlserver://sv03;databaseName=vpe"
+	username="sv03"
+	password="sv03"
+	class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+	dialect="mssql"
+	location="transformdb"
+	name="mssqldb"
+    />
+      -->
+
+</data-sources>
+

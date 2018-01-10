@@ -2,6 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="SingletonExample/src"/>
 	<classpathentry kind="src" path="Algorithms/BubbleSort/src"/>
+	<classpathentry kind="src" path="JBossStandaloneXML/src"/>
+	<classpathentry kind="src" path="ReadDataSourceXML/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Colpatria/Working/test/VolPayHub_2_5_0-master/apache-tomcat/lib/servlet-api.jar" sourcepath="C:/Users/DV22/AppData/Local/Temp/.org.sf.feeling.decompiler1515383744199/source/tomcat-servlet-api-8.5.11-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Colpatria/Working/VolPayHub_2_5_0-master/VolPayHubRT/VolPayHub/WEB-INF/lib/volpay-utils-1.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

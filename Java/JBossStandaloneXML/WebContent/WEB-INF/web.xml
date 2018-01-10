@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ReadJBossStandaloneXML</display-name>
+  <servlet>  
+<servlet-name>sonoojaiswal</servlet-name>  
+<servlet-class>com.examples.java.jbossstandalonexml.JbossStandaloneXML</servlet-class>  
+</servlet>  
+  
+<context-param>  
+<param-name>dname</param-name>  
+<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+</context-param>  
+  
+<servlet-mapping>  
+<servlet-name>sonoojaiswal</servlet-name>  
+<url-pattern>/context</url-pattern>  
+</servlet-mapping>  
+  
+</web-app>

@@ -25,7 +25,7 @@ public class BubbleSortAlgorithm {
 
 	public static void main(String[] args) {
 		// 569237184
-		int[] numbers = { 5, 6, 9, 2, 3, 7, 1, 8, 4 };
+		int[] numbers = { 5, 6, 9, 2, 3, 7, 1, 8, 0 };
 		int valLen = numbers.length;
 		Integer[] intClassNum = new Integer[valLen];
 		for (int i = 0; i < valLen; i++) {

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<data-sources>
+<!-- 	<data-source 
+        connection-driver="org.hsqldb.jdbcDriver"
+        url="jdbc:hsqldb:hsql://localhost"
+        username="sa"
+        password=""
+        class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+        dialect="hsql"
+        location="transformdb"
+        name="hsqldb"
+    /> -->
+	
+	  <data-source 
+        connection-driver="oracle.jdbc.driver.OracleDriver"
+        url="jdbc:oracle:thin:@localhost:1521:xe"
+        username="ct1"
+        password="volante"
+        class="com.volante.component.server.jdbc.ManagedJDBCDriverConnectionPool"
+        dialect="oracle"
+        location="transformdb"
+        name="oracledb"
+    />
+</data-sources>
+

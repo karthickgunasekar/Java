@@ -28,24 +28,32 @@ public class DownloadExcel extends HttpServlet {
 
 	protected void doGet(HttpServletRequest paramHttpServletRequest, HttpServletResponse paramHttpServletResponse)
 			throws ServletException, IOException {
-		String[] arrayOfString = paramHttpServletRequest.getParameter("FolioID").split(",");
+		String[] arrayOfString1= paramHttpServletRequest.getParameter("FolioID").split(",");
+		String[] arrayOfString2 = paramHttpServletRequest.getParameter("PdfCsv").split(",");
 		String str1 = "";
 		String str2 = "";
-		if (arrayOfString.length > 0) {
-			str2 = arrayOfString[0];
-		}
-
-		if (arrayOfString.length > 1) {
-			str1 = arrayOfString[1] + ".xls";
-		}
-		String str3 = "";
+		String str4 = "";
 
 		Log log = LogFactory.getRuntimeLog();
+		if (arrayOfString1.length > 0) {
+			str2 = arrayOfString1[0];
+		}
+
+		if (arrayOfString1.length > 1) {
+			str1 = arrayOfString1[1] + ".xls";
+		}
+		if (arrayOfString2.length > 0) {
+			str4 = arrayOfString2[0];
+			log.error(str4);
+		}
+
+		String str3 = "";
+
 		try {
 			LookupContext lookupContext = LookupContextFactory.getLookupContext();
-			MessageFlow messageFlow = lookupContext.lookupMessageFlow("GetRawOutputFrmReportLog");
+			MessageFlow messageFlow = lookupContext.lookupMessageFlow("DownloadReportOnFolio_ID");
 			TransformContext transformContext = new TransformContextImpl();
-			Object[] rawIn = new Object[] { str2, };
+			Object[] rawIn = new Object[] { str2, str4};
 			Object[] objOut = messageFlow.run(rawIn, transformContext);
 			if (objOut != null) {
 				str3 = (String) objOut[0];

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<name>Login Page</name>
+	
+	<parent>
+		<groupId>com</groupId>
+		<artifactId>SimpleBlogger</artifactId>
+		<version>1.0-snapshot</version>
+	</parent>
+	
+	<groupId>com.simple.blog</groupId>
+	<artifactId>LoginPage</artifactId>
+	<version>1.0-snapshot</version>
+	<packaging>pom</packaging>
+	
+	<dependencies>
+<!-- https://mvnrepository.com/artifact/jboss/jboss-j2ee -->
+<dependency>
+    <groupId>jboss</groupId>
+    <artifactId>jboss-j2ee</artifactId>
+    <version>4.2.2.GA</version>
+    <scope>provided</scope>
+</dependency>
+
+	</dependencies>
+</project>

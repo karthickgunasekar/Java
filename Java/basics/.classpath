@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="F:/jar/java_mail/javax.mail.jar"/>
+	<classpathentry kind="lib" path="F:/jar/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="F:/Arshad/VolPayHub_c2_7_3-0007b/apache-tomcat/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="F:/Arshad/VolPayHub_c2_7_3-0007b/apache-tomcat/bin/tomcat-juli.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/520Run"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_92"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

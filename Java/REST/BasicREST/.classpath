@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/javax.ws.rs-api-2.1.jar" sourcepath="C:/Users/karthick/AppData/Local/Temp/.org.sf.feeling.decompiler1527825308330/source/javax.ws.rs-api-2.1-sources.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-common.jar" sourcepath="C:/Users/karthick/AppData/Local/Temp/.org.sf.feeling.decompiler1527825308330/source/jersey-common-2.26-sources.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-media-json-binding.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-media-sse.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-server.jar" sourcepath="C:/Users/karthick/AppData/Local/Temp/.org.sf.feeling.decompiler1530504926090/source/jersey-server-2.26-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_92"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/jersey-hk2.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/hk2-api-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/hk2-locator-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/hk2-utils-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/javax.json.bind-api-1.0.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/javax.json-1.1.jar"/>
+	<classpathentry kind="lib" path="G:/git/Java/REST/BasicREST/lib/javax.json-api-1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/camel2177"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/RootException" xmlns:tns="http://www.example.org/RootException" elementFormDefault="qualified">
+
+    <complexType name="RootException">
+    	<sequence maxOccurs="unbounded" minOccurs="0">
+    		<element name="Messages" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="ErrorCode" type="string" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    		<element name="Severity" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="Cascadable" type="boolean" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="FieldName" type="string" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    		<element name="FieldId" type="string" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    		<element name="StackTraces" type="string" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+</schema>
